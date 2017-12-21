@@ -34,7 +34,7 @@ $food_groups = array(
     "sweets":["cookies","brownies","cake","pie"]
 }
 ```
-<b>vegetables kenapa jadi Jsonobject? karena ada associative array didalamnya " 'leafy' => array()  "</b>
+<b>vegetables kenapa jadi Jsonobject? karena ada associative array didalamnya " 'leafy' => array()  "</b><br/>
 <b>leafy kenapa jadi JsonArray? karena tidak ada associative array didalamnya </b>
 
 cat. associative array adalah array yang index nya berupa string
