@@ -1,6 +1,6 @@
 # php_learn
 
-## Convert array to json
+# Convert array to json
 ```
 http://www.dyn-web.com/tutorials/php-js/json/multidim-arrays.php
 ```
@@ -38,4 +38,12 @@ $food_groups = array(
 <b>leafy kenapa jadi JsonArray? karena tidak ada associative array didalamnya </b>
 
 cat. associative array adalah array yang index nya berupa string
+
+
+# Convert stdClass to array
+```
+$output = json_decode(json_encode($stdclass_variable), true); //When TRUE, returned objects will be converted into associative arrays.
+```
+
+
 
