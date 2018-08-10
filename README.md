@@ -54,7 +54,7 @@ convert stdObject / array ke JSON String, contoh:
 $data = ["nama"=>"irul","alamat"=>"malang","web"=>"http://tafsirul.web.id"];
 echo json_encode($data);
 ```
-hasilnya berupa string jadi jika ingin digunakan sebagai string tidak perlu di stringify:
+hasilnya sudah berupa string, jadi jika ingin digunakan sebagai string, tidak perlu di stringify:
 ```
 {"nama":"irul","alamat":"malang","web":"http:\/\/tafsirul.web.id"}
 ```
