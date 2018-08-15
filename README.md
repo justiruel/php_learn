@@ -45,8 +45,8 @@ cat. associative array adalah array yang index nya berupa string
 $output = json_decode(json_encode($stdclass_variable), true); //When TRUE, returned objects will be converted into associative arrays.
 ```
 
-# json_decode($array,true)
-param 'true' untuk membuat agar array di convert ke associative array (array yang index nya string)
+# json_decode($JSONString,true)
+param 'true' untuk membuat agar property dari JSONString di convert ke associative array (array yang index nya string)
 
 # json_encode
 convert stdObject / array ke JSON String, contoh:
