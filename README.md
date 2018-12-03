@@ -1,5 +1,7 @@
 # php_learn
 
+seumpama terdapat 10 baris kode, baris pertama berupa request url (CURL), jika CURL mengalami request timeout, maka kode bukan akan terminate tetapi beralih menjalankan baris kode selanjutnya
+
 # Convert array to json
 ```
 http://www.dyn-web.com/tutorials/php-js/json/multidim-arrays.php
